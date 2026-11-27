@@ -4,7 +4,8 @@
 
 当前版本：`1.1.1+7`
 注意：导入题库必须是符合格式的txt文件，可以使用仓库的ai提示词转换文档进行转换，将原文件和提示词一起发给任意ai即可。
-
+地址：
+https://github.com/XLuoIJi/simple_quiz/blob/main/README.md
 ## 功能
 
 - TXT 题库多选导入，一个文件对应一个章节
