@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# Flutter / Dart
+# ---------------------------------------------------------------------------
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Flutter/.last_build_id
+app.*.symbols
+app.*.map.json
+
+# ---------------------------------------------------------------------------
+# Android / Gradle
+# ---------------------------------------------------------------------------
+android/.gradle/
+android/captures/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/.cxx/
+android/.cxx/
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+*.iml
+
+# ---------------------------------------------------------------------------
+# IDE / editor
+# ---------------------------------------------------------------------------
+.idea/
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# ---------------------------------------------------------------------------
+# Build outputs / release binaries
+# ---------------------------------------------------------------------------
+*.apk
+*.aab
+*.ipa
+*.symbols
+*.map.json
+
+# ---------------------------------------------------------------------------
+# Secrets / signing files - never commit these
+# ---------------------------------------------------------------------------
+android/key.properties
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+secrets.properties
+
+# ---------------------------------------------------------------------------
+# Local logs / OS files
+# ---------------------------------------------------------------------------
+*.log
+.DS_Store
+Thumbs.db
